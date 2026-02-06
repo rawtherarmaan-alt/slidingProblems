@@ -11,7 +11,7 @@ public class slidingProb7 {
 		
 		int i = 0;
 		int j = 0;
-		int sum = 0;
+		//int sum = 0;
 		
 		List<Integer> list = new ArrayList<>();
 		while(i<arr.length) {
