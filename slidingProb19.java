@@ -9,18 +9,15 @@ public class slidingProb19 {
 		int Firsthlf = 0,Secondhlf = 0;
 		int half = k/2;
 		while(i<arr.length) {
-			if(half-1==i) {
-			 Firsthlf = arr[half] + arr[i];
+			if(i<half) {
+			 Firsthlf = Firsthlf + arr[i];
 			}
-			if(half == i) {
-				return;
-			}
-			if(half+1==i) {
-			 Secondhlf = arr[half] + arr[i];
+			if(i>half) {
+			 Secondhlf = Secondhlf + arr[i];
 			}
 			if(i-j+1<k) {
 				i++;
-			}else {
+			} else {
 				if(Firsthlf>Secondhlf) {
 					count++;
 				}
@@ -30,6 +27,7 @@ public class slidingProb19 {
 		}
 		System.out.println(count);
 	}
+	
 	
 	
 	public static void main(String[] args) {
