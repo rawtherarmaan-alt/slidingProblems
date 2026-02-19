@@ -17,8 +17,6 @@ public class slidingProb22 {
 	}
 	public static void maxPrime(int [] arr, int k) {
 		int i = 0, j = 0;
-		//int sum = 0;
-		int a=0;
 		int prime =0;
 		int max = Integer.MIN_VALUE;
 		while(i<arr.length) {

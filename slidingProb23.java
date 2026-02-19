@@ -3,7 +3,6 @@ package com.sliding;
 public class slidingProb23 {
 	public static void minmaxgrtr_equX(int [] arr, int k , int x) {
 		int i = 0, j = 0;
-		//int sum = 0;
 		int max = Integer.MIN_VALUE;
 		int min = Integer.MAX_VALUE;
 		int count = 0;
@@ -11,9 +10,6 @@ public class slidingProb23 {
 			if(i-j+1<k) {
 				i++;
 			} else {
-				
-//				int max = Integer.MIN_VALUE;
-//				int min = Integer.MAX_VALUE;
 				
 				for (int a=j; a<=i; a++) {
 					max = Math.max(max, arr[a]);
