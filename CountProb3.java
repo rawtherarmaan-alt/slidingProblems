@@ -16,7 +16,7 @@ public class CountProb3 {
 			if(arr[j]<0) {
 				negcount--;
 			}
-			j++;
+		 j++;
 		}
 		i++;
 		}
